@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <link rel="stylesheet" href="stylesexperience.css">
+<title>Page Title</title>
+</head>
+<body>
+
+
+<div class = "projects">
+	EXPERIENCE
+		<div class = "instr">
+			click on a role to learn more
+
+		</div>
+</div>
+
+
+<div class = "navbar">
+
+    <a href = "web.html">
+        <div id = "home">Andrew Bui</div>
+    </a>
+
+    <a href = "projects.html">
+        <div id = "projects">projects</div>
+    </a>
+
+    <a href = "experience.html">
+        <div id = "experience">experience</div>
+    </a>
+
+    <a href = "education.html">
+        <div id = "education">education</div>
+    </a>
+
+    <a href="AndrewBui.Resume2018.pdf">
+        <div id = "resume">resume</div>
+    </a>
+
+    <a href = "skills.html">
+        <div id = "skills">skills</div>
+    </a>
+
+</div>
+
+<h1>
+
+<a><div id="technical">Technical</div></a>
+
+<div id = "technicalintro">
+
+	<div id ="technicalintro1"  onclick="myFunctionTechnical1()" onmouseover="" style="cursor: pointer;">Oracle, Softare Developer Intern<div id="date">2016</div></div>
+    <div id ="technicalintro1desc">
+        - Develop Questionnaire Automation tool for collecting Oracle product pricing requirements<br>
+        - Perform daily Agile Development testing on 50+ Cost Price Quoting Models through all stages<br>
+        - Design and test 10+ new CPQ Models to satisfy Cloud Part Requirements and ensure efficient interface<br>
+        - Research and implement new Oracle Design Standards on existing models to improve user experience<br>
+    </div>
+
+
+	<div id = "technicalintro2" onclick="myFunctionTechnical2()" onmouseover="" style="cursor: pointer;">Flextronics, Data Analyst Intern<div id="date">2016</div></div>
+    <div id ="technicalintro2desc">
+        - Develop Proof of Concept for a BI system plug-in (Metric Insights) to monitor 50+ real-time alerts<br>
+        - Construct 6 data visualizations through Tableau leveraging multiple databases<br>
+        - Perform daily data queries and ETL processes to develop reports on Inventory Management<br>
+        - Contribute daily manual testing on Flex Pulse Interface involving 200+ reports and visual metrics<br>
+    </div>
+
+
+    <div id = "technicalintro3" onclick="myFunctionTechnical3()" onmouseover="" style="cursor: pointer;">Tunity, Software Developer in Test Intern<div id="date">2015</div></div>
+
+    <div id ="technicalintro3desc">
+        - Generate historical analysis of test results using SQL to increase application downloads by 12%<br>
+        - Execute tests on GUI and functionality of mobile  applications to increase user ratings<br>
+        - Assist Web Developer in constructing a friendly and functional Tunity home page<br>
+    </div>
+
+</div>
+
+
+
+<a><div id="leadership">Leadership</div></a>
+
+    <div id = "leadershipintro">
+
+        <div id ="leadershipintro1"  onclick="myFunctionLeadership1()" onmouseover="" style="cursor: pointer;">NYU, Varsity Swimming Team Captain<div id="date">2016 - 2017</div></div>
+
+        <div id ="leadershipintro1desc">
+            - Co-Founder of POD (mentor/mentee) program for 60+ collegiate athletes<br>
+            - Host biweekly individual  meetings for each athlete to address athletics and academic concerns<br>
+            - Attend weekly Student Athletic Advisory Meeting to provide insight and discuss relevant solutions<br>
+            - Organize and lead biannual fundraisers involving 200+ attendees<br>
+        </div>
+
+
+        <div id ="leadershipintro2"  onclick="myFunctionLeadership2()" onmouseover="" style="cursor: pointer;">NYU, Calculus TA<div id="date">2016 - 2017</div></div>
+
+        <div id ="leadershipintro2desc">
+            - Lead weekly discussions on recent Calculus topics designated by professor<br>
+            - Assist students in homework problem sets during weekly office hours<br>
+            - Grade homeworks, midterms, and exams<br>
+        </div> 
+
+</div>
+
+
+<a><div id="tunity">Volunteer</div></a>
+
+
+    <div id = "volunteerintro">
+
+        <div id ="volunteerintro1"  onclick="myFunctionVolunteer1()" onmouseover="" style="cursor: pointer;">NYU, Lauren Beam Fundraiser<div id="date">2016- 2017</div></div>
+
+            <div id ="volunteerintro1desc">
+        - Assist NYU Swimming and Diving in participating in 5k run for Lauren Beam Foundation, raising money for Cancer awareness, for 2016 and 2017<br>
+        - Organize volunteers, runners, and donations<br>
+        - Assist in setting up and assigning swimmers at each stand point to cheer<br>
+        </div> 
+
+        <div id ="volunteerintro2"  onclick="myFunctionVolunteer2()" onmouseover="" style="cursor: pointer;">Regional Medical Center, Volunteer<div id="date">2010 - 2014</div></div>
+
+            <div id ="volunteerintro2desc">
+        - Discharge and accomodate patients as they are escorted home<br>
+        - Run specimens and test results to and from lab<br>
+        - Manage front desk, answer phone calls, and assits visitors<br>
+        </div> 
+
+    </div>
+
+</h1>
+
+
+<script>
+function myFunctionTechnical1() {
+    var x = document.getElementById("technicalintro1desc");
+    var y = document.getElementById("flexdesc");
+    var z = document.getElementById("tunitydesc");
+    var w = document.getElementById("nyudesc");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        document.getElementById("technicalintro1").style.fontSize = "x-large";
+        document.getElementById("technicalintro1").style.color = "#1c73ff";
+        document.getElementById("technicalintro1").style.fontWeight="bold";
+        /*
+        y.style.display = "none";
+        z.style.display = "none";
+        w.style.display = "none";
+        document.getElementById("flex").style.color = "";
+        document.getElementById("flex").style.fontSize = "";
+        document.getElementById("tunity").style.color = "";
+        document.getElementById("tunity").style.fontSize = "";
+        document.getElementById("nyu").style.color = "";
+        document.getElementById("nyu").style.fontSize = "";
+		*/
+
+    } else {
+        x.style.display = "none";
+        document.getElementById("technicalintro1").style.color = "";
+        document.getElementById("technicalintro1").style.fontSize = "";
+        document.getElementById("technicalintro1").style.fontWeight="";
+    }
+}
+
+function myFunctionTechnical2() {
+    var x = document.getElementById("technicalintro2desc");
+    var y = document.getElementById("flexdesc");
+    var z = document.getElementById("tunitydesc");
+    var w = document.getElementById("nyudesc");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        document.getElementById("technicalintro2").style.fontSize = "x-large";
+        document.getElementById("technicalintro2").style.color = "#1c73ff";
+        document.getElementById("technicalintro2").style.fontWeight="bold";
+        /*
+        y.style.display = "none";
+        z.style.display = "none";
+        w.style.display = "none";
+        document.getElementById("flex").style.color = "";
+        document.getElementById("flex").style.fontSize = "";
+        document.getElementById("tunity").style.color = "";
+        document.getElementById("tunity").style.fontSize = "";
+        document.getElementById("nyu").style.color = "";
+        document.getElementById("nyu").style.fontSize = "";
+        */
+
+    } else {
+        x.style.display = "none";
+        document.getElementById("technicalintro2").style.color = "";
+        document.getElementById("technicalintro2").style.fontSize = "";
+        document.getElementById("technicalintro2").style.fontWeight="";
+    }
+}
+
+
+function myFunctionTechnical3() {
+    var x = document.getElementById("technicalintro3desc");
+    var y = document.getElementById("flexdesc");
+    var z = document.getElementById("tunitydesc");
+    var w = document.getElementById("nyudesc");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        document.getElementById("technicalintro3").style.fontSize = "x-large";
+        document.getElementById("technicalintro3").style.color = "#1c73ff";
+        document.getElementById("technicalintro3").style.fontWeight="bold";
+        /*
+        y.style.display = "none";
+        z.style.display = "none";
+        w.style.display = "none";
+        document.getElementById("flex").style.color = "";
+        document.getElementById("flex").style.fontSize = "";
+        document.getElementById("tunity").style.color = "";
+        document.getElementById("tunity").style.fontSize = "";
+        document.getElementById("nyu").style.color = "";
+        document.getElementById("nyu").style.fontSize = "";
+        */
+
+    } else {
+        x.style.display = "none";
+        document.getElementById("technicalintro3").style.color = "";
+        document.getElementById("technicalintro3").style.fontSize = "";
+        document.getElementById("technicalintro3").style.fontWeight="";
+    }
+}
+
+function myFunctionLeadership1() {
+    var x = document.getElementById("leadershipintro1desc");
+
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        document.getElementById("leadershipintro1").style.fontSize = "x-large";
+        document.getElementById("leadershipintro1").style.color = "#1c73ff";
+        document.getElementById("leadershipintro1").style.fontWeight="bold";
+        /*
+        y.style.display = "none";
+        z.style.display = "none";
+        w.style.display = "none";
+        document.getElementById("flex").style.color = "";
+        document.getElementById("flex").style.fontSize = "";
+        document.getElementById("tunity").style.color = "";
+        document.getElementById("tunity").style.fontSize = "";
+        document.getElementById("nyu").style.color = "";
+        document.getElementById("nyu").style.fontSize = "";
+        */
+
+    } else {
+        x.style.display = "none";
+        document.getElementById("leadershipintro1").style.color = "";
+        document.getElementById("leadershipintro1").style.fontSize = "";
+        document.getElementById("leadershipintro1").style.fontWeight="";
+    }
+}
+
+function myFunctionLeadership2() {
+    var x = document.getElementById("leadershipintro2desc");
+
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        document.getElementById("leadershipintro2").style.fontSize = "x-large";
+        document.getElementById("leadershipintro2").style.color = "#1c73ff";
+        document.getElementById("leadershipintro2").style.fontWeight="bold";
+        /*
+        y.style.display = "none";
+        z.style.display = "none";
+        w.style.display = "none";
+        document.getElementById("flex").style.color = "";
+        document.getElementById("flex").style.fontSize = "";
+        document.getElementById("tunity").style.color = "";
+        document.getElementById("tunity").style.fontSize = "";
+        document.getElementById("nyu").style.color = "";
+        document.getElementById("nyu").style.fontSize = "";
+        */
+
+    } else {
+        x.style.display = "none";
+        document.getElementById("leadershipintro2").style.color = "";
+        document.getElementById("leadershipintro2").style.fontSize = "";
+        document.getElementById("leadershipintro2").style.fontWeight="";
+    }
+}
+
+
+function myFunctionVolunteer1() {
+    var x = document.getElementById("volunteerintro1desc");
+
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        document.getElementById("volunteerintro1").style.fontSize = "larger";
+        document.getElementById("volunteerintro1").style.color = "#1c73ff";
+        document.getElementById("volunteerintro1").style.fontWeight="bold";
+        /*
+        x.style.display = "none";
+        y.style.display = "none";
+        w.style.display = "none";
+        document.getElementById("flex").style.color = "";
+        document.getElementById("flex").style.fontSize = "";
+        document.getElementById("oracle").style.color = "";
+        document.getElementById("oracle").style.fontSize = "";
+        document.getElementById("nyu").style.color = "";
+        document.getElementById("nyu").style.fontSize = "";
+		*/
+
+
+    } else {
+        x.style.display = "none";
+        document.getElementById("volunteerintro1").style.color = "";
+        document.getElementById("volunteerintro1").style.fontSize = "";
+        document.getElementById("volunteerintro1").style.fontWeight="";
+    }
+}
+
+
+function myFunctionVolunteer2() {
+    var x = document.getElementById("volunteerintro2desc");
+
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        document.getElementById("volunteerintro2").style.fontSize = "x-large";
+        document.getElementById("volunteerintro2").style.color = "#1c73ff";
+        document.getElementById("volunteerintro2").style.fontWeight="bold";
+        /*
+        y.style.display = "none";
+        z.style.display = "none";
+        w.style.display = "none";
+        document.getElementById("flex").style.color = "";
+        document.getElementById("flex").style.fontSize = "";
+        document.getElementById("tunity").style.color = "";
+        document.getElementById("tunity").style.fontSize = "";
+        document.getElementById("nyu").style.color = "";
+        document.getElementById("nyu").style.fontSize = "";
+        */
+
+    } else {
+        x.style.display = "none";
+        document.getElementById("volunteerintro2").style.color = "";
+        document.getElementById("volunteerintro2").style.fontSize = "";
+        document.getElementById("volunteerintro2").style.fontWeight="";
+    }
+}
+
+
+
+window.onload = function() {
+  	document.getElementById('technicalintro1desc').style.display = 'none';
+  	document.getElementById('technicalintro2desc').style.display = 'none';
+  	document.getElementById('technicalintro3desc').style.display = 'none';
+  	document.getElementById('leadershipintro1desc').style.display = 'none';
+    document.getElementById('leadershipintro2desc').style.display = 'none';
+    document.getElementById('volunteerintro1desc').style.display = 'none';
+    document.getElementById('volunteerintro2desc').style.display = 'none';
+};
+</script>
+
+<!--
+<style>
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+</style>
+</head>
+<body>
+
+<p>Click the "Try it" button to toggle between hiding and showing the DIV element:</p>
+
+<div class="button" onclick ="myFunction()">Try it</div>
+
+<div id="myDIV">
+This is my DIV element.
+</div>
+
+<p><b>Note:</b> The element will not take up any space when the display property set to "none".</p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+
+-->
+
+</body>
+</html>

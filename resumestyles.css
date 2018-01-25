@@ -1,0 +1,16 @@
+h1{
+	text-align: center;
+	font-size: 40pt;
+	font-weight: lighter;
+}
+
+
+
+@font-face {
+	font-family: "test1";
+	src: url("opensans-light-webfont.woff");
+}
+
+body{
+	font-family: "test1";
+}

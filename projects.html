@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <link rel="stylesheet" href="stylesprojects.css">
+<title>Page Title</title>
+</head>
+<body>
+
+
+<div class = "projects">
+	PROJECTS
+		<div class = "instr">
+			click on a project to learn more
+
+		</div>
+</div>
+
+<div class = "navbar">
+
+	<a href = "web.html">
+		<div id = "home">Andrew Bui</div>
+	</a>
+
+	<a href = "projects.html">
+		<div id = "projects">projects</div>
+	</a>
+
+	<a href = "experience.html">
+		<div id = "experience">experience</div>
+	</a>
+
+	<a href = "education.html">
+		<div id = "education">education</div>
+	</a>
+
+	<a href="AndrewBui.Resume2018.pdf">
+		<div id = "resume">resume</div>
+	</a>
+
+	<a href = "skills.html">
+		<div id = "skills">skills</div>
+	</a>
+
+</div>
+
+<h1>
+
+<a><div id="oracle" onclick="myFunctionOracle()" onmouseover="" style="cursor: pointer;">Oracle Applications</div></a>
+
+<div id = "oracleintro">
+	June 2017 - September 2017<br>
+	Developed an internal tool that efficiently collected Oracle Cloud Part Requirements and stored all part relationships and details in a dynamic database visualization.<br>
+	
+</div>
+
+<div id= "oracledesc">
+<p style = "font-weight: bold">Skills/Tools: Oracle Application Express, Oracle SQL/PL, Javascript, HTML/CSS, UX/UI</p>
+- Leverage all Oracle Cloud Parts databases to construct data relationship between parts and requirements<br>
+- Include subscriber option that allows Product Managers to have efficient access to their Cloud Products<br>
+- Generate dynamic questionnaire based on the Cloud Product<br>
+- Collect, store, and display all part relationships to simplify the process of developing CPQs<br>
+- Keep track of questionnaire submissions through versioning<br>
+</div>
+
+
+<a><div id="flex" onclick="myFunctionFlex()" onmouseover="" style="cursor: pointer;">Flextronics - Proof of Concept</div></a>
+
+<div id = "flexintro">
+	June 2016 - September 2016<br>
+	Constructed a Proof of Concept for Metric Insights, an alert tool that leverages Tableau data visualizations
+</div>
+
+<div id= "flexdesc">
+<p style = "font-weight: bold">Skills/Tools: Metric Insights, Tableau, SQL, Teradata, Java, Python, Node.js</p>
+
+- Develop Data Visualizations through Tableau monitoring the manufacturing process for customer products<br>
+- Analyze data from all Flextronics supplies and consumers to determine the most efficient alerting method<br>
+- Construct a detailed report on functionality and efficiency of Metric Insights vs the current process<br>
+- Utilize internal servers to directly alert Product Managers on data visualization changes<br>
+</div>
+
+
+<a><div id="tunity" onclick="myFunctionTunity()" onmouseover="" style="cursor: pointer;">Tunity - Testing</div></a>
+
+
+<div id = "tunityintro">
+	October 2015 - December 2015<br>
+	Test the Tunity application through geofencing, manual data collection, and analyzing user data
+</div>
+
+
+<div id= "tunitydesc">
+This is the TUNITY description!<br>
+October 2015 - December 2015<br>
+
+<p style ="font-weight: bold">Skills/Tools: SQO, noSQL, UX/UI, Excel</p>
+
+- Organize and construct a testing methodology for Tunity appliation<br>
+- Conduct manual/technical testing<br>
+- Construct weekly reports on application development and testing results<br>
+- Analyze test results to promote key business decisions and change<br>
+
+
+</div>
+
+
+<a><div id="nyu" onclick="myFunctionNYU()" onmouseover="" style="cursor: pointer;">NYU - POD Progam</div></a>
+
+<div id = "nyuintro">
+	May 2015 - May 2017<br>
+	Founded a Mentor/Mentee program among NYU Varsity Atletics
+</div>
+
+<div id= "nyudesc">
+
+<p style ="font-weight: bold">Skills/Tools: Leadership, Communication, Time Management</p>
+
+- Organize mentor/mentee program for NYU Athletics, pairing up upper classmen and freshman<br>
+- Plan scheduled outing events for Freshmen and Transfers to ease the transition to NYU<br>
+- Hold monthly meetings to discuss issues and new activities for the program<br>
+- Attend biweekly Student Athletics Association Meetings to recieve feedback on the program<br>
+
+</div>
+
+</h1>
+
+
+<script>
+function myFunctionOracle() {
+    var x = document.getElementById("oracledesc");
+    var y = document.getElementById("flexdesc");
+    var z = document.getElementById("tunitydesc");
+    var w = document.getElementById("nyudesc");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        document.getElementById("oracle").style.fontSize = "larger";
+        document.getElementById("oracle").style.color = "#1c73ff";
+        document.getElementById("oracle").style.fontWeight="bold";
+        /*
+        y.style.display = "none";
+        z.style.display = "none";
+        w.style.display = "none";
+        document.getElementById("flex").style.color = "";
+        document.getElementById("flex").style.fontSize = "";
+        document.getElementById("tunity").style.color = "";
+        document.getElementById("tunity").style.fontSize = "";
+        document.getElementById("nyu").style.color = "";
+        document.getElementById("nyu").style.fontSize = "";
+		*/
+
+    } else {
+        x.style.display = "none";
+        document.getElementById("oracle").style.color = "";
+        document.getElementById("oracle").style.fontSize = 
+        document.getElementById("oracle").style.fontWeight="";
+    }
+}
+
+function myFunctionFlex() {
+    var x = document.getElementById("oracledesc");
+    var y = document.getElementById("flexdesc");
+    var z = document.getElementById("tunitydesc");
+    var w = document.getElementById("nyudesc");
+    if (y.style.display === "none") {
+        y.style.display = "block";
+        document.getElementById("flex").style.fontSize = "larger";
+        document.getElementById("flex").style.color = "#1c73ff";
+        document.getElementById("flex").style.fontWeight="bold";
+
+        /*
+        x.style.display = "none";
+        z.style.display = "none";
+        w.style.display = "none";
+        document.getElementById("oracle").style.color = "";
+        document.getElementById("oracle").style.fontSize = "";
+        document.getElementById("tunity").style.color = "";
+        document.getElementById("tunity").style.fontSize = "";
+        document.getElementById("nyu").style.color = "";
+        document.getElementById("nyu").style.fontSize = "";
+		*/
+
+
+    } else {
+        y.style.display = "none";
+        document.getElementById("flex").style.color = "";
+        document.getElementById("flex").style.fontSize = "";
+        document.getElementById("flex").style.fontWeight="";
+
+    }
+}
+
+
+function myFunctionTunity() {
+    var x = document.getElementById("oracledesc");
+    var y = document.getElementById("flexdesc");
+    var z = document.getElementById("tunitydesc");
+    var w = document.getElementById("nyudesc");
+    if (z.style.display === "none") {
+        z.style.display = "block";
+        document.getElementById("tunity").style.fontSize = "larger";
+        document.getElementById("tunity").style.color = "#1c73ff";
+        document.getElementById("tunity").style.fontWeight="bold";
+
+        /*
+        x.style.display = "none";
+        y.style.display = "none";
+        w.style.display = "none";
+        document.getElementById("flex").style.color = "";
+        document.getElementById("flex").style.fontSize = "";
+        document.getElementById("oracle").style.color = "";
+        document.getElementById("oracle").style.fontSize = "";
+        document.getElementById("nyu").style.color = "";
+        document.getElementById("nyu").style.fontSize = "";
+		*/
+
+
+    } else {
+        z.style.display = "none";
+        document.getElementById("tunity").style.color = "";
+        document.getElementById("tunity").style.fontSize = "";
+        document.getElementById("tunity").style.fontWeight="";
+
+    }
+}
+
+function myFunctionNYU() {
+    var x = document.getElementById("oracledesc");
+    var y = document.getElementById("flexdesc");
+    var z = document.getElementById("tunitydesc");
+    var w = document.getElementById("nyudesc");
+    if (w.style.display === "none") {
+        w.style.display = "block";
+        document.getElementById("nyu").style.fontSize = "larger";
+        document.getElementById("nyu").style.color = "#1c73ff";
+        /*
+        x.style.display = "none";
+        y.style.display = "none";
+        z.style.display = "none";
+        document.getElementById("flex").style.color = "";
+        document.getElementById("flex").style.fontSize = "";
+        document.getElementById("tunity").style.color = "";
+        document.getElementById("tunity").style.fontSize = "";
+        document.getElementById("oracle").style.color = "";
+        document.getElementById("oracle").style.fontSize = "";
+		*/
+
+    } else {
+        w.style.display = "none";
+        document.getElementById("nyu").style.color = "";
+        document.getElementById("nyu").style.fontSize = "";
+    }
+}
+
+
+
+window.onload = function() {
+  	document.getElementById('oracledesc').style.display = 'none';
+  	document.getElementById('flexdesc').style.display = 'none';
+  	document.getElementById('tunitydesc').style.display = 'none';
+  	document.getElementById('nyudesc').style.display = 'none';
+};
+</script>
+
+<!--
+<style>
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+</style>
+</head>
+<body>
+
+<p>Click the "Try it" button to toggle between hiding and showing the DIV element:</p>
+
+<div class="button" onclick ="myFunction()">Try it</div>
+
+<div id="myDIV">
+This is my DIV element.
+</div>
+
+<p><b>Note:</b> The element will not take up any space when the display property set to "none".</p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+
+-->
+
+</body>
+</html>

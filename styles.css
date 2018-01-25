@@ -1,0 +1,90 @@
+/*
+body {
+    background-image: url("bui.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 20% -30%; 
+}
+*/
+
+#home{
+    top: 2%;
+    right:2%;
+    position: fixed;
+    font-family: "test1";
+}
+
+h1{
+    margin-left: -4%;
+	margin-top: 7%;
+	text-align: center;
+    font-family: "test1";
+    font-weight: lighter;
+    vertical-align: center;
+    font-size: 15pt;
+
+    text-align: left;
+
+    float:left;
+
+}
+
+.projects:hover, .experience:hover, .education:hover, .skills:hover, .resume:hover, .skills:hover{
+
+    color: black;
+	font-weight: bold;
+  -webkit-transition: font-weight .5s ease-out;
+  -moz-transition: font-weight .5s ease-out;
+  -o-transition: font-weight .5s ease-out;
+  transition: font-weight .5s ease-out;
+
+  font-size: 17pt;
+  -webkit-transition: font-size .5s ease-out;
+  -moz-transition: font-size .5s ease-out;
+  -o-transition: font-size .5s ease-out;
+  transition: font-size .5s ease-out;
+}
+
+
+#technicalintro1:hover,#technicalintro2:hover,#technicalintro3:hover, #leadershipintro1:hover, #leadershipintro2:hover, #volunteerintro1:hover, #volunteerintro2:hover{
+    color: #1c73ff;
+  -webkit-transition: color .5s ease-out;
+  -moz-transition: color .5s ease-out;
+  -o-transition: color .5s ease-out;
+  transition: color .5s ease-out;
+
+  font-size: 17pt;
+  -webkit-transition: font-size .5s ease-out;
+  -moz-transition: font-size .5s ease-out;
+  -o-transition: font-size .5s ease-out;
+  transition: font-size .5s ease-out;
+}
+
+a:visited, h1:visited{
+	color:black;
+}
+
+
+
+@font-face {
+font-family: "test1";
+src: url("opensans-light-webfont.woff");
+
+}
+
+a {
+    background-color: transparent; 
+    text-decoration: none;
+    color:black;
+}
+
+.img{
+	margin: 7%;
+	max-width:50%;
+	max-height:60%;
+	border: blue;
+
+    float:left;
+
+	/*border-radius: 50%;*/
+}

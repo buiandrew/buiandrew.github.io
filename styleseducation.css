@@ -1,0 +1,142 @@
+.projects{
+	z-index: 2;
+
+	margin-top: 10%;
+	font-size: 37pt;
+	font-family: "test1";
+	text-align: left;
+	margin-left: 10%;
+
+	font-weight: bold;
+
+	padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+    height:33px;
+    width:960px;
+    margin: 0 0 0 0; 
+}
+
+
+.instr{
+	z-index: 2;
+	position: relative;
+	font-size: 13pt;
+	font-weight: lighter;
+}
+
+body{
+	font-family: "test1";
+	margin-bottom: 5%;
+}
+
+#home{
+	font-size: 12pt;
+	top: 2%;
+	right: 2%;
+	position: fixed;
+}
+
+#projects{
+	font-size: 101t;
+	top: 5%;
+	right: 2%;
+	position: fixed;
+}
+
+#experience{
+	top: 8%;
+	right: 2%;
+	position: fixed;
+}
+
+#education{
+	top: 11%;
+	right: 2%;
+	position: fixed;
+}
+
+#resume{
+	top: 14%;
+	right: 2%;
+	position: fixed;
+}
+
+#skills{
+	top: 17%;
+	right: 2%;
+	position: fixed;
+}
+
+
+#nyu{
+	font-size: 30pt;
+}
+
+#date{
+	font-size:20pt;
+	margin-left:7%;
+}
+
+#subjects{
+	margin-left:7%
+}
+
+#math,#cs{
+	margin-top:5pt;
+	font-size:15pt;
+	line-height:2em;
+}
+
+#mathclasses{
+	margin-left:5%;
+	font-size: 14pt;
+	line-height:1.7em;
+}
+
+#csclasses{
+	margin-left:5%;
+	font-size: 14pt;
+	line-height:1.7em;
+}
+
+h1{
+	font-weight: lighter;
+	line-height: 55px;
+	text-align: left;
+	margin-left: 16%;
+	margin-top: 5%;
+	width: auto;
+}
+
+#math:hover, #cs:hover{
+	color: #1c73ff;
+  -webkit-transition: color .5s ease-out;
+  -moz-transition: color .5s ease-out;
+  -o-transition: color .5s ease-out;
+  transition: color .5s ease-out;
+
+  font-size: 19pt;
+  -webkit-transition: font-size .5s ease-out;
+  -moz-transition: font-size .5s ease-out;
+  -o-transition: font-size .5s ease-out;
+  transition: font-size .5s ease-out;
+}
+
+
+@font-face {
+font-family: "test1";
+src: url("opensans-light-webfont.woff");
+}
+
+button{
+	text-decoration: none;
+	color: blue;
+}
+
+a {
+    background-color: transparent; 
+    text-decoration: none;
+    color:black;
+}

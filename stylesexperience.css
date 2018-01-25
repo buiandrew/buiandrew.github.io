@@ -1,0 +1,150 @@
+.projects{
+	z-index: 2;
+
+	margin-top: 10%;
+	font-size: 37pt;
+	font-family: "test1";
+	text-align: left;
+	margin-left: 10%;
+
+	font-weight: bold;
+
+	padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+    height:33px;
+    width:960px;
+    margin: 0 0 0 0; 
+}
+
+#home{
+	top: 2%;
+	right: 2%;
+	position: fixed;
+}
+
+#projects{
+	top: 5%;
+	right: 2%;
+	position: fixed;
+}
+
+#experience{
+	top: 8%;
+	right: 2%;
+	position: fixed;
+}
+
+#education{
+	top: 11%;
+	right: 2%;
+	position: fixed;
+}
+
+#resume{
+	top: 14%;
+	right: 2%;
+	position: fixed;
+}
+
+#skills{
+	top: 17%;
+	right: 2%;
+	position: fixed;
+}
+
+
+
+.instr{
+	z-index: 2;
+	position: relative;
+	font-size: 13pt;
+	font-weight: lighter;
+	margin-left: .5%;
+}
+
+body{
+	font-family: "test1";
+	margin-bottom: 5%;
+}
+
+
+h1{
+	font-size: 20pt;
+	font-weight: normal;
+	line-height: 60px;
+	text-align: left;
+	margin-left: 16%;
+	margin-top: 5%;
+	width: auto;
+
+}
+
+#oracle{
+	width:50%;
+}
+
+#technicalintro, #leadershipintro, #volunteerintro{
+	font-size: 14pt;
+	width: 80%;
+	margin-bottom: 1%;
+	margin-left: 5%;
+	line-height: 35px;
+
+	margin-top:1%;
+
+	line-height: 3em;
+}
+
+#technicalintro1:hover,#technicalintro2:hover,#technicalintro3:hover, #leadershipintro1:hover, #leadershipintro2:hover, #volunteerintro1:hover, #volunteerintro2:hover{
+	color: #1c73ff;
+  -webkit-transition: color .5s ease-out;
+  -moz-transition: color .5s ease-out;
+  -o-transition: color .5s ease-out;
+  transition: color .5s ease-out;
+
+  font-size: 17pt;
+  -webkit-transition: font-size .5s ease-out;
+  -moz-transition: font-size .5s ease-out;
+  -o-transition: font-size .5s ease-out;
+  transition: font-size .5s ease-out;
+}
+
+#technicalintro1desc, #technicalintro2desc, #technicalintro3desc, #leadershipintro1desc, #leadershipintro2desc, #volunteerintro1desc, #volunteerintro2desc{
+	font-size: 12pt;
+	margin-left: 5%;
+	font-weight: bold;
+	margin-bottom:2%;
+	line-height: 1.5em;
+}
+
+#date{
+	float:right;
+	margin-right:20%;
+	color: initial;
+	font-weight: initial;
+	font-size: 15pt;
+}
+
+#date:hover{
+	color:black;
+
+}
+
+
+@font-face {
+font-family: "test1";
+src: url("opensans-light-webfont.woff");
+}
+
+button{
+	text-decoration: none;
+	color: blue;
+}
+
+a {
+    background-color: transparent; 
+    text-decoration: none;
+    color:black;
+}

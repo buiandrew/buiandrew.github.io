@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <link rel="stylesheet" href="styleseducation.css">
+<title>Page Title</title>
+</head>
+<body>
+
+
+<div class = "projects">
+	EDUCATION
+
+</div>
+
+<div class = "navbar">
+
+	<a href = "web.html">
+		<div id = "home">Andrew Bui</div>
+	</a>
+
+	<a href = "projects.html">
+		<div id = "projects">projects</div>
+	</a>
+
+	<a href = "experience.html">
+		<div id = "experience">experience</div>
+	</a>
+
+	<a href = "education.html">
+		<div id = "education">education</div>
+	</a>
+
+	<a href="AndrewBui.Resume2018.pdf">
+		<div id = "resume">resume</div>
+	</a>
+
+	<a href = "skills.html">
+		<div id = "skills">skills</div>
+	</a>
+
+</div>
+
+<h1>
+
+<a><div id="nyu">New York University</div></a>
+
+<div id = "date">
+	August 2013 - December 2017<br>
+</div>
+
+	<div id ="subjects">
+		<div id ="math">
+			Bachelor's Degree in <span style="font-weight:bold">Mathematics</span><br>
+		</div>
+
+		<div id ="mathclasses">
+			- Calculus 1, 2, 3 <br>
+			- Linear Algebra<br>
+			- Discrete Mathematics<br>
+			- Probabilty and Statistics<br>
+			- Abstract Algebra<br>
+			- Analysis<br>
+		</div>
+
+		<div id ="cs">
+			Minor in <span style="font-weight:bold">Computer Science</span><br>
+		</div>
+
+		<div id ="csclasses">
+			- Introduction to Programming, Python <br>
+			- Introduction to Computer Science, Java<br>
+			- Data Structures<br>
+			- Computer Systems Organizations, C<br>
+		</div>
+
+	</div>
+
+</h1>
+
+
+<script>
+function myFunctionOracle() {
+    var x = document.getElementById("oracledesc");
+    var y = document.getElementById("flexdesc");
+    var z = document.getElementById("tunitydesc");
+    var w = document.getElementById("nyudesc");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        document.getElementById("oracle").style.fontSize = "larger";
+        document.getElementById("oracle").style.color = "#1c73ff";
+        document.getElementById("oracle").style.fontWeight="bold";
+        /*
+        y.style.display = "none";
+        z.style.display = "none";
+        w.style.display = "none";
+        document.getElementById("flex").style.color = "";
+        document.getElementById("flex").style.fontSize = "";
+        document.getElementById("tunity").style.color = "";
+        document.getElementById("tunity").style.fontSize = "";
+        document.getElementById("nyu").style.color = "";
+        document.getElementById("nyu").style.fontSize = "";
+		*/
+
+    } else {
+        x.style.display = "none";
+        document.getElementById("oracle").style.color = "";
+        document.getElementById("oracle").style.fontSize = 
+        document.getElementById("oracle").style.fontWeight="";
+    }
+}
+
+function myFunctionFlex() {
+    var x = document.getElementById("oracledesc");
+    var y = document.getElementById("flexdesc");
+    var z = document.getElementById("tunitydesc");
+    var w = document.getElementById("nyudesc");
+    if (y.style.display === "none") {
+        y.style.display = "block";
+        document.getElementById("flex").style.fontSize = "larger";
+        document.getElementById("flex").style.color = "#1c73ff";
+        document.getElementById("flex").style.fontWeight="bold";
+
+        /*
+        x.style.display = "none";
+        z.style.display = "none";
+        w.style.display = "none";
+        document.getElementById("oracle").style.color = "";
+        document.getElementById("oracle").style.fontSize = "";
+        document.getElementById("tunity").style.color = "";
+        document.getElementById("tunity").style.fontSize = "";
+        document.getElementById("nyu").style.color = "";
+        document.getElementById("nyu").style.fontSize = "";
+		*/
+
+
+    } else {
+        y.style.display = "none";
+        document.getElementById("flex").style.color = "";
+        document.getElementById("flex").style.fontSize = "";
+        document.getElementById("flex").style.fontWeight="";
+
+    }
+}
+
+
+function myFunctionTunity() {
+    var x = document.getElementById("oracledesc");
+    var y = document.getElementById("flexdesc");
+    var z = document.getElementById("tunitydesc");
+    var w = document.getElementById("nyudesc");
+    if (z.style.display === "none") {
+        z.style.display = "block";
+        document.getElementById("tunity").style.fontSize = "larger";
+        document.getElementById("tunity").style.color = "#1c73ff";
+        document.getElementById("tunity").style.fontWeight="bold";
+
+        /*
+        x.style.display = "none";
+        y.style.display = "none";
+        w.style.display = "none";
+        document.getElementById("flex").style.color = "";
+        document.getElementById("flex").style.fontSize = "";
+        document.getElementById("oracle").style.color = "";
+        document.getElementById("oracle").style.fontSize = "";
+        document.getElementById("nyu").style.color = "";
+        document.getElementById("nyu").style.fontSize = "";
+		*/
+
+
+    } else {
+        z.style.display = "none";
+        document.getElementById("tunity").style.color = "";
+        document.getElementById("tunity").style.fontSize = "";
+        document.getElementById("tunity").style.fontWeight="";
+
+    }
+}
+
+function myFunctionNYU() {
+    var x = document.getElementById("oracledesc");
+    var y = document.getElementById("flexdesc");
+    var z = document.getElementById("tunitydesc");
+    var w = document.getElementById("nyudesc");
+    if (w.style.display === "none") {
+        w.style.display = "block";
+        document.getElementById("nyu").style.fontSize = "larger";
+        document.getElementById("nyu").style.color = "#1c73ff";
+        /*
+        x.style.display = "none";
+        y.style.display = "none";
+        z.style.display = "none";
+        document.getElementById("flex").style.color = "";
+        document.getElementById("flex").style.fontSize = "";
+        document.getElementById("tunity").style.color = "";
+        document.getElementById("tunity").style.fontSize = "";
+        document.getElementById("oracle").style.color = "";
+        document.getElementById("oracle").style.fontSize = "";
+		*/
+
+    } else {
+        w.style.display = "none";
+        document.getElementById("nyu").style.color = "";
+        document.getElementById("nyu").style.fontSize = "";
+    }
+}
+
+
+
+window.onload = function() {
+  	document.getElementById('oracledesc').style.display = 'none';
+  	document.getElementById('flexdesc').style.display = 'none';
+  	document.getElementById('tunitydesc').style.display = 'none';
+  	document.getElementById('nyudesc').style.display = 'none';
+};
+</script>
+
+<!--
+<style>
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+</style>
+</head>
+<body>
+
+<p>Click the "Try it" button to toggle between hiding and showing the DIV element:</p>
+
+<div class="button" onclick ="myFunction()">Try it</div>
+
+<div id="myDIV">
+This is my DIV element.
+</div>
+
+<p><b>Note:</b> The element will not take up any space when the display property set to "none".</p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+
+-->
+
+</body>
+</html>
