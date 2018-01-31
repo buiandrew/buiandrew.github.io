@@ -9,35 +9,28 @@ body {
 */
 
 body{
-    background-color: #FAFAFA;
+
 }
+
+
+
 
 #home{
-    top: 5%;
-    left:8%;
+    top: 2%;
+    left: 2%;
     position: fixed;
-    font-family: "test1";
-    font-weight: ;
+    font-family: "font2";
+    font-weight: bold;
     font-size:40pt;
 
-    font-family: 'Open Sans', sans-serif;
 
-}
 
-.navbar{
-    text-align: left;
-    font-family: 'test1';
-    margin-left: 70%;
-    margin-top: 1%;
-    position: fixed;
+    letter-spacing: 0pt;
 
-    font-size: 12pt;
 }
 
 h1{
-    margin-left: -4%;
-	margin-top: 31.5%;
-	text-align: center;
+    text-align: center;
     font-family: "test1";
     font-weight: lighter;
     vertical-align: center;
@@ -51,22 +44,30 @@ h1{
 }
 
 #intro{
-    position: fixed;
-    width:32%;
-    margin-left:1%;
-    margin-top:-22%;
+    margin-top:1%;
+    width: 80%;
+    margin-left:20.5%;
+
     margin-bottom: 0%;
     font-size:18pt;
     color: black;
 
-    line-height: 1.1em;
+    line-height: 1em;
+
+    text-align: center;
 }
 
 #introdetails{
-    position: fixed;
     margin-top:3%;
-    width: 33%;
-    font-size: 12pt;
+    margin-left: 0.1%;
+    width: 74%;
+    font-size: 11pt;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    letter-spacing: .25pt;
 }
 
 .experience{
@@ -75,7 +76,7 @@ h1{
 
 .projects:hover, .experience:hover, .education:hover, .skills:hover, .resume:hover, .skills:hover{
     color: black;
-	font-weight: bold;
+    font-weight: bold;
 }
 
 
@@ -94,7 +95,7 @@ h1{
 }
 
 a:visited, h1:visited{
-	color:black;
+    color:black;
 }
 
 
@@ -104,6 +105,13 @@ font-family: "test1";
 src: url("opensans-light-webfont.woff");
 }
 
+@font-face {
+font-family: "font2";
+src: url("rajdhani.regular.woff");
+}
+
+
+
 
 a {
     background-color: transparent; 
@@ -111,17 +119,6 @@ a {
 
 }
 
-.bui{
-    padding-top: 20px;
-	margin: 7%;
-	max-width:50%;
-	max-height:550px;
-	border: blue;
-    float:left;
-	/*border-radius: 50%;*/
-
-    opacity: .9;
-}
 
 .twitter{
     max-height: 30px;
@@ -141,9 +138,9 @@ a {
 }
 
 .social{
-    position: fixed;
-    margin-top:49%;
-    margin-left: 81%;
+    margin-top: 20%;
+    margin-left: 82%;
+
 }
 
 .learnmore:hover{
@@ -168,4 +165,36 @@ a {
     width: 130px;
 
     letter-spacing: 2px;
+}
+
+.navbar{
+    text-align: left;
+    font-family: 'test1';
+    margin-left: 67%;
+    margin-top: 1%;
+    position: fixed;
+
+    width:100%;
+
+    font-size: 12pt;
+}
+
+
+.buiny{
+    position: relative;
+    margin-top: 10%;
+    width: 15%;
+    padding-left: 20%;
+}
+
+.bui{
+    position: relative;
+    width: 26.7%;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.buigrad{
+    position: relative;
+    width: 15%;
 }

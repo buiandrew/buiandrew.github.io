@@ -18,42 +18,20 @@
     margin: 0 0 0 0; 
 }
 
-#home{
-	top: 2%;
-	right: 2%;
-	position: fixed;
+.navbar{
+    text-align: left;
+    font-family: 'test1';
+    margin-left: 67%;
+    margin-top: -5.4%;
+    position: fixed;
+
+    font-size: 13.5pt;
 }
 
-#projects{
-	top: 5%;
-	right: 2%;
-	position: fixed;
+.home:hover,.projectsnav:hover, .experience:hover, .education:hover, .skills:hover, .resume:hover, .skills:hover{
+    color: black;
+    font-weight: bold;
 }
-
-#experience{
-	top: 8%;
-	right: 2%;
-	position: fixed;
-}
-
-#education{
-	top: 11%;
-	right: 2%;
-	position: fixed;
-}
-
-#resume{
-	top: 14%;
-	right: 2%;
-	position: fixed;
-}
-
-#skills{
-	top: 17%;
-	right: 2%;
-	position: fixed;
-}
-
 
 
 .instr{
@@ -67,6 +45,8 @@
 body{
 	font-family: "test1";
 	margin-bottom: 5%;
+    background-color: #FAFAFA;
+
 }
 
 
@@ -83,6 +63,11 @@ h1{
 
 #oracle{
 	width:50%;
+}
+
+#technicalintro1,#technicalintro2,#technicalintro3, #leadershipintro1, #leadershipintro2, #volunteerintro1, #volunteerintro2{
+	font-weight: bold;
+
 }
 
 #technicalintro, #leadershipintro, #volunteerintro{

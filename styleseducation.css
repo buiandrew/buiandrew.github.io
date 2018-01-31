@@ -29,6 +29,9 @@
 body{
 	font-family: "test1";
 	margin-bottom: 5%;
+    background-color: #FAFAFA;
+
+
 }
 
 #home{
@@ -37,36 +40,12 @@ body{
 	right: 2%;
 	position: fixed;
 }
-
-#projects{
-	font-size: 101t;
-	top: 5%;
-	right: 2%;
-	position: fixed;
-}
-
-#experience{
-	top: 8%;
-	right: 2%;
-	position: fixed;
-}
-
-#education{
-	top: 11%;
-	right: 2%;
-	position: fixed;
-}
-
-#resume{
-	top: 14%;
-	right: 2%;
-	position: fixed;
-}
-
-#skills{
-	top: 17%;
-	right: 2%;
-	position: fixed;
+.navbar{
+    text-align: left;
+    font-family: 'test1';
+    margin-left: 75%;
+    margin-top: -5%;
+    position: fixed;
 }
 
 
@@ -110,19 +89,6 @@ h1{
 	width: auto;
 }
 
-#math:hover, #cs:hover{
-	color: #1c73ff;
-  -webkit-transition: color .5s ease-out;
-  -moz-transition: color .5s ease-out;
-  -o-transition: color .5s ease-out;
-  transition: color .5s ease-out;
-
-  font-size: 19pt;
-  -webkit-transition: font-size .5s ease-out;
-  -moz-transition: font-size .5s ease-out;
-  -o-transition: font-size .5s ease-out;
-  transition: font-size .5s ease-out;
-}
 
 
 @font-face {

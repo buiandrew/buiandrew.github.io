@@ -18,44 +18,20 @@
     margin: 0 0 0 0; 
 }
 
+
 .navbar{
-  font-size:12pt;
+    text-align: left;
+    font-family: 'test1';
+    margin-left: 67%;
+    margin-top: -5.4%;
+    position: fixed;
+
+    font-size: 13.5pt;
 }
 
-#home{
-  top: 2%;
-  right: 2%;
-  position: fixed;
-}
-
-#projects{
-  top: 5%;
-  right: 2%;
-  position: fixed;
-}
-
-#experience{
-  top: 8%;
-  right: 2%;
-  position: fixed;
-}
-
-#education{
-  top: 11%;
-  right: 2%;
-  position: fixed;
-}
-
-#resume{
-  top: 14%;
-  right: 2%;
-  position: fixed;
-}
-
-#skillsnav{
-  top: 17%;
-  right: 2%;
-  position: fixed;
+.home:hover,.projectsnav:hover, .experience:hover, .education:hover, .skills:hover, .resume:hover, .skills:hover{
+    color: black;
+    font-weight: bold;
 }
 
 @-keyframes grow-90{
@@ -119,16 +95,17 @@
 }
 
 body { 
-  background: white;
-  background: -moz-radial-gradient(center, ellipse cover,  white 0%, white 90%);
+    background-color: #FAFAFA;
+
+  /*background: -moz-radial-gradient(center, ellipse cover,  white 0%, white 90%);
   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffeb95), color-stop(90%,white));
   background: -webkit-radial-gradient(center, ellipse cover,  white 0%,white 90%);
   background: -o-radial-gradient(center, ellipse cover,  white 0%,white 90%);
   background: -ms-radial-gradient(center, ellipse cover,  white 0%,white 90%);
   background: radial-gradient(ellipse at center,  white 0%,white 90%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='white', endColorstr='#ffd576',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='white', endColorstr='#ffd576',GradientType=1 );*/
   font-family: 'test1';
-  font-size: 0.9em;
+
 }
 
 h1 {
